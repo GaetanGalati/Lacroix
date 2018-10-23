@@ -5,11 +5,15 @@ int main()
 {
      char lettre;
      char lettre2;
+     //Les lettres rentrée par l'utilisateur
      int Longueur=0;
      int largeur=0;
-     int p=1;
-     int m=1;
+     //La longeur et la largeur
+     int x=1;
+     int y=1;
+     //Les variable des boucles pours
 
+     //Affectation par l'utilisateur de la taille et des lettres
     printf("Entrez la lettre 1\n");
      scanf("%c",&lettre);
     fflush(stdin);
@@ -22,13 +26,13 @@ int main()
      printf("Entrez la largeur\n");
      scanf("\n%d",&largeur);
 
-
-
-     for (p=1;p<=largeur;p++)
+//Première boucle pour gère la longeur du tableu
+     for (x=1;x<=largeur;x++)
         {
-            for(m=1;m<=Longueur;m++)
+          //Deuxsieme boucle pour dere la larger
+            for(y=1;y<=Longueur;y++)
                {
-                   if(p==1||p==Longueur || m==1 || m==largeur) {
+                   if(x==1||x==Longueur || y==1 || y==largeur) {
                        printf("%c",lettre);
                        }
                        else
@@ -41,6 +45,3 @@ int main()
         }
       return 0;
       }
-
-
-
