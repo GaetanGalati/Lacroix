@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1540225893 source:c:\users\skyfu\documents\projetcodeblocks\croix\main.c
+	<stdio.h>
+	<stdlib.h>
+
