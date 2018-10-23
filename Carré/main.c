@@ -3,8 +3,8 @@
 
 int main()
 {
-    char lettre;
-    char lettre2;
+     char lettre;
+     char lettre2;
      int Longueur=0;
      int largeur=0;
      int p=1;
